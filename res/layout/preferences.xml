@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory 
+        android:title="Allerta i seguenti numeri:">
+        
+        <EditTextPreference
+			android:key="phone1"
+			android:title="Telefono 1"
+			android:summary="Numero telefono 1"
+			android:inputType="number"
+			android:tag="numbers" />
+        	
+        <EditTextPreference
+			android:key="phone2"
+			android:title="Telefono 2"
+			android:summary="Numero telefono 2" 
+			android:inputType="number"
+			android:tag="numbers"/>
+        
+        <EditTextPreference
+			android:key="phone3"
+			android:title="Telefono 3"
+			android:summary="Numero telefono 3" 
+			android:inputType="number"
+			android:tag="numbers"/>
+        
+        <EditTextPreference
+			android:key="phone4"
+			android:title="Telefono 4"
+			android:summary="Numero telefono 4" 
+			android:inputType="number"
+			android:tag="numbers"/>
+        
+        <EditTextPreference
+			android:key="phone5"
+			android:title="Telefono 5"
+			android:summary="Numero telefono 5" 
+			android:inputType="number"
+			android:tag="numbers"
+			/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	    android:title="Funzioni">
+	    <CheckBoxPreference
+	        android:key="sendsms"
+	        android:title="Invio sms"
+	        android:summary="Abilita invio sms"/>
+	    
+	    <EditTextPreference
+			android:key="threshold"
+			android:title="Soglia"
+			android:summary="Imposta la soglia minima di rilevamento" 
+			android:inputType="number"/>
+	        
+	  
+	</PreferenceCategory>
+
+</PreferenceScreen>
